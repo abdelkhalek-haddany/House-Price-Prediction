@@ -45,6 +45,7 @@ The project workflow consists of the following steps:
    from sklearn.model_selection import train_test_split
    from sklearn.linear_model import LinearRegression
    from sklearn.metrics import mean_squared_error
+   ...
    ```
 The dataset is loaded using `pandas.read_csv()` from the `Dataset` folder. This data contains various attributes related to housing.
 
