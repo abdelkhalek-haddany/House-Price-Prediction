@@ -52,26 +52,11 @@ The dataset is loaded using `pandas.read_csv()` from the `Dataset` folder. This 
 
 3. **Data Exploration**:
    - **Data Visualization**: Visualize the distribution of numerical and categorical features using histograms and bar charts.
-     ```python
-     df.hist(bins=50, figsize=(20, 15))
-     plt.show()
-     ```
    - **Correlation Analysis**: Explore correlations between different features and the target variable (house prices) using a heatmap.
-     ```python
-     corr_matrix = df.corr()
-     sns.heatmap(corr_matrix, annot=True, cmap='coolwarm')
-     plt.show()
-     ```
 
 4. **Data Preprocessing**:
    - **Handling Missing Values**: Handle missing values by filling them with median values.
-     ```python
-     df.fillna(df.median(), inplace=True)
-     ```
    - **Encoding Categorical Variables**: Convert categorical variables to numeric using one-hot encoding.
-     ```python
-     df = pd.get_dummies(df, drop_first=True)
-     ```
 
 5. **Feature Selection**:
    - Identify and select the most relevant features for the model.
@@ -79,13 +64,4 @@ The dataset is loaded using `pandas.read_csv()` from the `Dataset` folder. This 
 
 6. **Model Training**:
    - **Split the Data**: Split the dataset into training and testing sets using `train_test_split`.
-     ```python
-     X = df.drop('price', axis=1)
-     y = df['price']
-     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
-     ```
    - **Train a Linear Regression Model**: Train a Linear Regression model using the training data.
-     ```python
-     model = LinearRegression()
-     model.fit(X_train, y_train)
-     ```
