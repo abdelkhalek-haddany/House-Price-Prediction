@@ -70,5 +70,5 @@ The dataset is loaded using `pandas.read_csv()` from the `Dataset` folder. This 
 
 Check out the video tutorial for a detailed walkthrough of this project:
 
-[](https://www.youtube.com/watch?v=CXIiK4IHK6E)
+[![Watch the video](https://img.youtube.com/vi/CXIiK4IHK6E/hqdefault.jpg)](https://www.youtube.com/watch?v=CXIiK4IHK6E)
 
