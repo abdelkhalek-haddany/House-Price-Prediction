@@ -8,9 +8,7 @@ This project aims to predict house prices using a dataset containing various fea
 2. [Dataset](#dataset)
 3. [Installation](#installation)
 4. [Project Workflow](#project-workflow)
-5. [Modeling and Evaluation](#modeling-and-evaluation)
-6. [Results](#results)
-7. [Video Tutorial](#video-tutorial)
+5. [Video Tutorial](#video-tutorial)
 
 ## Introduction
 
