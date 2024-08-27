@@ -10,8 +10,7 @@ This project aims to predict house prices using a dataset containing various fea
 4. [Project Workflow](#project-workflow)
 5. [Modeling and Evaluation](#modeling-and-evaluation)
 6. [Results](#results)
-7. [Conclusion](#conclusion)
-8. [License](#license)
+7. [Video Tutorial](#video-tutorial)
 
 ## Introduction
 
@@ -32,6 +31,7 @@ To run this project, you need Python installed along with the necessary librarie
 
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn
+
 ```
 
 ## Project Workflow
@@ -65,3 +65,10 @@ The dataset is loaded using `pandas.read_csv()` from the `Dataset` folder. This 
 6. **Model Training**:
    - **Split the Data**: Split the dataset into training and testing sets using `train_test_split`.
    - **Train a Linear Regression Model**: Train a Linear Regression model using the training data.
+
+## Video Tutorial
+
+Check out the video tutorial for a detailed walkthrough of this project:
+
+[](https://www.youtube.com/watch?v=CXIiK4IHK6E)
+
